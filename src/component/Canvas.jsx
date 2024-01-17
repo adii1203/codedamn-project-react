@@ -15,7 +15,7 @@ const Canvas = () => {
   return (
     <div>
       <canvas
-        ref={(el) => (canvasRef = el)}
+        ref={(el) => (canvasRef.current = el)}
         data-testid="myCanvas"
         width="400"
         height="400"
