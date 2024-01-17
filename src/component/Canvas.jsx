@@ -8,7 +8,7 @@ const Canvas = () => {
         width="400"
         height="400"
         style={{
-          border: "1px solid red",
+          border: "2px solid red",
         }}></canvas>
     </div>
   );
